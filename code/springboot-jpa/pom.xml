@@ -3,13 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.10</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <artifactId>code</artifactId>
+        <groupId>cn.liuminkai</groupId>
+        <version>1.0-SNAPSHOT</version>
     </parent>
     <groupId>cn.liuminkai</groupId>
-    <artifactId>spring-data-jpa</artifactId>
+    <artifactId>springboot-jpa</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot-jpa</name>
     <description>Demo project for Spring Boot</description>
@@ -37,14 +36,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
